@@ -23,6 +23,12 @@
 hs_err_pid*
 replay_pid*
 
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
