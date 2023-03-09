@@ -2,8 +2,7 @@ package main;
 
 public class StopWatch {
     private static long startTime;
-    private static long endTime;
-    public StopWatch() {}
+    private StopWatch() {}
     public static void start(){
         startTime = System.nanoTime();
     }    
@@ -11,8 +10,7 @@ public class StopWatch {
         return System.nanoTime() - startTime;
     }
     public static void finishReport(){
-        endTime = System.nanoTime() - startTime;
+        long endTime = System.nanoTime() - startTime;
         System.out.println("\nMethod finished in: " + endTime +" ns");
-
     }
 }
