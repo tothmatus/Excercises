@@ -1,4 +1,4 @@
-package main;
+package main.java;
 
 import java.lang.annotation.Target;
 import java.util.Arrays;
